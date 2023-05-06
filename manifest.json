@@ -1,0 +1,11 @@
+{
+    "name": "IPL Mania",
+    "version": "1.0.0",
+    "description": "IPL Mania",
+    "manifest_version": 3,
+    "author": "PG",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "IPL Mania"
+    }
+}

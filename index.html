@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Mania</title>
+</head>
+<body>
+    <div class="card">
+        <div class="announcement" id="main">
+            <div class="left">
+                <div id="team1logo"></div>
+                <h2 id="team1"></h2>
+                <div id="team1score"></div>
+            </div>
+            <div>
+                <span onclick="toggle(1)" class="toggle">&lt;</span>
+                <span onclick="toggle(2)" class="toggle">&gt;</span>
+                <h1 style="margin-top:20px;"><img src="logo.png" class="img"></h1>
+            </div>
+            <div class="right">
+                <div id="team2logo"></div>
+                <h2 id="team2"></h2>
+                <div id="team2score"></div>
+            </div>              
+        </div>
+        <div class="status">
+            <span id="matchstatus"></span>
+            <br>
+            <p id="venue" style="font-size: 12px; margin-top:1%;"></p>
+        </div>
+      </div>
+</body>
+<script src="script.js"></script>
+</html>
